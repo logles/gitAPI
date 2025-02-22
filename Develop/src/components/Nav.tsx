@@ -1,8 +1,33 @@
+import React from "react";
+import { NavLink } from "react-router-dom";
+
 const Nav = () => {
-  // TODO: Add necessary code to display the navigation bar and link between the pages
   return (
-    <div>Nav</div>
-  )
+    <nav className="nav">
+      <ul style={{ display: "flex", gap: "1rem" }}>
+        <li className="nav-item">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Home
+          </NavLink>
+        </li>
+        <li className="nav-item">
+          <NavLink
+            to="/SavedCandidates"
+            className={({ isActive }) =>
+              isActive ? "nav-link active" : "nav-link"
+            }
+          >
+            Potential Candidates
+          </NavLink>
+        </li>
+      </ul>
+    </nav>
+  );
 };
 
 export default Nav;
