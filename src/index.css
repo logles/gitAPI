@@ -118,3 +118,51 @@ tbody tr:nth-child(odd) {
   width: 80vw;
   table-layout: fixed;
 }
+
+/*buttons css*/
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 100px 0px 100px;
+  height: 65px;
+  max-width: 200px;
+}
+
+.buttons .plus {
+  border-radius: 50%;
+  padding: 0px 10px;
+  font-size: 75px;
+  background-color: green;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.buttons .minus {
+  border-radius: 50%;
+  padding: 0px 10px;
+  font-size: 75px;
+  background-color: red;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button.minus {
+  background-color: red;
+}
+
+.avatar {
+  height: 209px;
+  width: 100%;
+}
+
+.candidateDetails {
+  margin-left: 40%;
+  background: blac;
+  margin: 0px 100px 0px 100px;
+  background: black;
+}
