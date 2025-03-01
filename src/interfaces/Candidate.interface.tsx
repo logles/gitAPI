@@ -2,7 +2,7 @@
 
 export interface Candidate {
   avatar_url: string; //(avatar)
-  name?: string | null;
+  name?: string;
   location?: string | null;
   email?: string | null;
   company?: string | null;

@@ -74,13 +74,13 @@ const CandidateSearch = () => {
             <img
               className="avatar"
               src={candidate.avatar_url}
-              alt={candidate.name}
+              alt={candidate.name ?? "Candidate Avatar"}
             />
-            <h2>{`Name: ${candidate.name}`}</h2>
-            <p>{`Location: ${candidate.location}`}</p>
-            <p>{`Email: ${candidate.email}`}</p>
-            <p>{`Company: ${candidate.company}`}</p>
-            <p>{`Bio: ${candidate.bio}`}</p>
+            <h2>{`Name: ${candidate.name ?? "N/A"}`}</h2>
+            <p>{`Location: ${candidate.location ?? "N/A"}`}</p>
+            <p>{`Email: ${candidate.email ?? "N/A"}`}</p>
+            <p>{`Company: ${candidate.company ?? "N/A"}`}</p>
+            <p>{`Bio: ${candidate.bio ?? "N/A"}`}</p>
           </div>
           <div className="buttons">
             <button className="minus" onClick={skipCandidate}>
