@@ -15,7 +15,7 @@
 
 ## Description
 
-gitAPI is a **React-based candidate search application** that uses the GitHub API to fetch and display candidate information. This project helps employers to quickly review candidate profiles, save potential hires for further consideration, and manage their candidate list. Built with **React** and **Vite**, to provide a user-friendly interface and persistent data storage via localStorage.
+gitAPI is a **React-based candidate search application** that uses the GitHub API to fetch and display candidate information. This project helps employers to quickly review candidate profiles, save potential hires for further consideration, and manage their candidate list. Built with **React** and **Vite**, to provide a user-friendly interface and persistent data storage via localStorage. https://gitapi-1.onrender.com/
 
 ![Homepage](./assets/home.png)
 
